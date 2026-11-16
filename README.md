@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/openproject-2?utm_medium=integration&utm_source=button&utm_campaign=openproject)
+
 # OpenProject on Railway
 
 This repo is the source for the **OpenProject** template on Railway. It wraps the official all-in-one image
