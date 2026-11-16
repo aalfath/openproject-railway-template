@@ -9,9 +9,6 @@ ENV OPENPROJECT_HTTPS=true \
 COPY railway-start.sh /usr/local/bin/railway-start.sh
 RUN chmod 755 /usr/local/bin/railway-start.sh
 
-# Attachments and repositories live here: mount a volume on this path.
-VOLUME ["/var/openproject/assets"]
-
 EXPOSE 80
 ENTRYPOINT ["/usr/local/bin/railway-start.sh"]
 CMD ["./docker/prod/supervisord"]
