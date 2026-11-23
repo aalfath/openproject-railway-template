@@ -3,7 +3,7 @@
 # OpenProject on Railway
 
 This repo is the source for the **OpenProject** template on Railway. It wraps the official all-in-one image
-`openproject/openproject:17.9.7` (pinned by digest) and runs it next to Railway's PostgreSQL.
+`openproject/openproject:17.9.8` (pinned by digest) and runs it next to Railway's PostgreSQL.
 
 ## What the template deploys
 
